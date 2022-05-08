@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">ALL SENSORS</string>
+
+    <!-- Common -->
+    <string name="str_defaultValue">- - -</string>
+    <string name="str_notifyOn">中止</string>
+    <string name="str_notifyOff">開始</string>
+
+    <!-- BLE -->
+    <string name="str_Yes">Yes</string>
+    <string name="str_No">No</string>
+    <string name="str_Disconnect">Disconnect</string>
+    <string name="str_Connected">Connected</string>
+    <string name="str_Disconnected">Disconnected</string>
+    <string name="str_notify_disconnected">BLE has disconnected.</string>
+    <string name="str_CharaNotFound">Characteristic Not found</string>
+    <string name="str_ChooseDevToConn">連結する Deviceを選択してください</string>
+    <string name="str_showBondDev">Bonded Device</string>
+    <string name="str_Bonded">Bonded</string>
+    <string name="str_scan_stopped">scan :\n stopped</string>
+    <string name="str_scan_running">scan :\n running</string>
+
+    <!-- Device Info -->
+    <string name="str_Gap">"GA (Generic Access)"</string>
+    <string name="str_Dis">"DI (Device Information)"</string>
+    <string name="strTtl_DevName">Device name :</string>
+    <string name="strTtl_Appearance">Appearance :</string>
+    <string name="strTtl_SWRev">Software revision :</string>
+    <string name="strTtl_FWRev">Firmware revision :</string>
+    <string name="strTtl_HWRev">Hardware revision :</string>
+    <string name="strTtl_ManufacturerName">Manufacturer name :</string>
+    <string name="str_Read">Read</string>
+
+    <!-- ADC -->
+    <string name="str_DefaultPercent">--</string>
+    <string name="str_DefaultTimestamp">--:--:--</string>
+    <string name="str_Percent">percent</string>
+
+    <!-- LED -->
+    <string name="str_On">ON</string>
+    <string name="str_Off">OFF</string>
+    <string name="strTtl_Frequency">Frequency</string>
+    <string name="strTtl_DutyCycle">Duty Cycle</string>
+    <string name="strTtl_Rhythm">Rhythm</string>
+    <string name="str_RhythmTime000">0000 – 0250 (ms)</string>
+    <string name="str_RhythmTime250">0250 – 0500 (ms)</string>
+    <string name="str_RhythmTime500">0500 – 0750 (ms)</string>
+    <string name="str_RhythmTime750">0750 – 1000 (ms)</string>
+    <string name="str_template1">Template 1 (%1$d Hz, %2$d%%, 0x%3$06X)</string>
+    <string name="str_template2">Template 2 (%1$d Hz, %2$d%%, 0x%3$06X)</string>
+    <string name="str_template3">Template 3 (%1$d Hz, %2$d%%, 0x%3$06X)</string>
+    <string name="str_CustomSound">Custom Setting</string>
+    <string name="str_percent">%</string>
+    <string name="str_Hz">Hz</string>
+
+    <!-- Console -->
+    <string name="str_example1">Hello, world!</string>
+    <string name="str_example2">123 ABC abc #$%</string>
+    <string name="str_example3">Toshiba</string>
+    <string name="str_SendMsg">Send message</string>
+    <string name="str_EnterMsg">message in the input field</string>
+    <string name="str_hint3">Please enter a message</string>
+
+    <!-- OTA fragment -->
+    <string name="str_SelDevice">選択された Device</string>
+    <string name="str_step1">STEP1 :  </string>
+    <string name="str_read_firmware_revision">Read Hardware revision</string>
+    <string name="str_step2">STEP2 :  </string>
+    <string name="str_choose_ota_file">Choose OTA file</string>
+    <string name="str_SetFile">Set File</string>
+    <string name="str_SetFileComment"><u>"Please select file ( *.hex )"</u></string>
+    <string name="str_InvalidFilePath">Invalid filename or path.</string>
+    <string name="str_step3">STEP3 :  </string>
+    <string name="str_start_ota">Start OTA</string>
+    <string name="str_ota_flash_start">OTA Firmware Update START</string>
+    <string name="str_result">Result :</string>
+    <string name="str_PlzDisconnectRestart">Please disconnect, and restart your remote device.</string>
+    <string name="str_step4">STEP4 :  </string>
+    <string name="str_disconnect_and_reboot_device">Disconnect and reboot remote device</string>
+    <string name="str_status">Status :</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_start_scan">Start Scan</string>
+    <string name="action_stop_scan">Stop Scan</string>
+    <string name="action_connect">CONNECT</string>
+    <string name="action_disconnect">DISCONNECT</string>
+    <string name="turn_on">ON</string>
+    <string name="turn_off">OFF</string>
+    <string name="ble_not_supported">This device does not support Bluetooth Smart!</string>
+    <string name="please_connect">Please connect to device first!</string>
+    <string name="error_msg" formatted="false">%s (error %d)</string>
+
+    <string name="not_device">連結された Device がありません</string>
+    <string name="connect_device">連結完了</string>
+    <string name="connecting_device">Device 接続の中で</string>
+
+    <string name="Start">開始</string>
+    <string name="Stop">中止</string>
+    <string name="pressure">圧力</string>
+    <string name="temp">温度</string>
+    <string name="flow">유량</string>
+
+</resources>

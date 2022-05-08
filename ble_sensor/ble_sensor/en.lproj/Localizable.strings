@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  ble_sensor
+
+  Created by 정면진 on 13/11/2018.
+  Copyright © 2018 정면진. All rights reserved.
+*/
+"BLE SCAN" = "BLE SCAN";
+"STOP SCAN" = "STOP SCAN";
+"DISCONNECT" = "DISCONNECT";
+"Start scanning ble" = "Start scanning ble";
+"End scanning ble" = "End scanning ble";
+"No ble connection." = "No ble connection.";
+
+"START" = "START";
+"STOP" = "STOP";
+"Pressure" = "Pressure";
+"Temperature" = "Temperature";
+"Flow" = "Flow";
+
+"BLE CONNNECT" = "BLE CONNNECT";
+"Connect" = "Connect";
+"OK" = "OK";
+"Cancel" = "Cancel";
+"Bluetooth is turned off. Must be turned on for normal use. Do you want to go to the settings screen?" = "Bluetooth is turned off. Must be turned on for normal use. Do you want to go to the settings screen?";
+
+"connect is" = "connect is";
